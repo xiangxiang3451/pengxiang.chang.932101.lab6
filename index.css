@@ -1,13 +1,49 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
-main{
+
+main {
     margin: 0 auto;
-    width: 50%;
-    height: 45%;
+    width: 500px;
+    height: 250px;
+    background-color: black;
 }
-.button{
-    width: 20%;
-    margin-top: 0;
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button {
+    width: calc((100% - 2px)/3);
+    color: white;
+    padding: 5px;
+    background-color: red;
+    border: solid 1px black;
+}
+
+.image-box {
+    display: flex;
+    height: 100%;
+}
+
+.picture-box1 {
+    width: 50%;
+    padding: 10px;
+    background-color: blue;
+
+}
+
+.picture-box2 {
+    width: 50%;
+    padding: 10px;
+    background-color: green;
+
+}
+
+img {
+    width: 100%;
+    height: 75%;
 }
